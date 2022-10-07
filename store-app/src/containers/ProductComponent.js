@@ -9,7 +9,7 @@ const ProductComponent = () => {
     return (
       <div className="four wide column" key={id}>
         <Link to={`/product/${id}`}>
-          <div className="ui link cards">
+          <div class="ui link cards">
             <div className="card">
               <div className="image">
                 <img src={image} alt={title} />

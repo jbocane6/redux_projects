@@ -10,9 +10,6 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <br />
-        <br />
-        <br />
         <Routes>
           <Route path="/" exact element={<ProductListing />} />
           <Route path="/product/:productId" exact element={<ProductDetail />} />

@@ -1,13 +1,16 @@
-import React from "react";
+import React from 'react'
+import { Header, Image } from 'semantic-ui-react'
 
-const Header = () => {
-  return (
-    <div className="ui fixed menu">
-      <div className="ui container center">
-        <h2>Pengüin Shop</h2>
-      </div>
-    </div>
-  );
-};
+const HeaderExampleUsersIcon = () => (
+  <div>
+    <Header as='h2' icon textAlign='center'>
+    </Header>
+    <Image
+      centered
+      size='small'
+      src='logo.png'
+    />
+  </div>
+)
 
-export default Header;
+export default HeaderExampleUsersIcon

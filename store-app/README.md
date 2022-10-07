@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Pengüin Shop
+
+Fake ecommerce store using fake APIs, Redux and Axios.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -69,6 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+Required packages and libraries:
 
-components added:
 - semantic.min.css got on https://cdnjs.com/libraries/semantic-ui
+- axios: npm install axios
+- react-router-dom: npm install react-router-dom
+- redux, react-redux: npm install redux react-redux
+- semantic-ui-react : npm install semantic-ui-react
